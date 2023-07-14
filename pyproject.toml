@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "local LLMs"
+version = "0.1.0"
+description = "working with LLM locally"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.229"
+openai = "^0.27.8"
+python-environ = "^0.4.54"
+gpt4all = "^1.0.3"
+llama-cpp-python = "^0.1.71"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
