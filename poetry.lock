@@ -460,6 +460,16 @@ files = [
 ]
 
 [[package]]
+name = "environ"
+version = "1.0"
+description = "Stack Based Globals Management"
+optional = false
+python-versions = "*"
+files = [
+    {file = "environ-1.0.tar.gz", hash = "sha256:4df7f1dfeb7d1c988d2e19a8bd5d547a526e0400aeb35adf732032472f35dcb0"},
+]
+
+[[package]]
 name = "executing"
 version = "1.2.0"
 description = "Get the currently executing AST node of a frame, and other information"
@@ -1864,4 +1874,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4d15805a16c302c9c8afeab73d6681b69a068021cbb0e74156a3c04f52c8c83c"
+content-hash = "74d35be0285b1727ed7d33a7f451c5d3770574d1f1c564b9c0d498ea4aa4db58"
