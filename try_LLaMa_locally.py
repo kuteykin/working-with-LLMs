@@ -9,7 +9,7 @@ def main(args):
     green = "\033[0;32m"
     white = "\033[0;39m"
     cyan = "\033[36m"
-    print("Ask a question (type 'Exit' for quit)")
+    print(f"{cyan}Ask a question (type 'Exit' for quit) {white}:")
 
     while True:
         user_input = input(">>> ")
@@ -36,10 +36,10 @@ parser.add_argument(
     "-m",
     type=str,
     required=True,
-    help="Path to local LLM, in GGML or GGUF format",
+    help="Path to local LLM (supports models in GGML, GGUF or GPTQ format)",
 )
 parser.add_argument(
-    "--max_tokens", "-t", type=int, help="Number of returned tokens [int]"
+    "--max_tokens", "-t", type=int, default=128, help="Number of returned tokens [int]"
 )
 args = parser.parse_args()
 
