@@ -1,6 +1,6 @@
 # working-with-LLMs
 
-Notebooks for research on LLM capacities, including running autonomous LLMs locally *(Vicuna, GPT4all)* or using OpenAI ChatGPT API.
+Notebooks research on LLM capacities, including running autonomous LLMs locally *(Vicuna, GPT4all)* or using OpenAI ChatGPT API.
 
 *Langchain_external_data_to_LLM.ipynb*      Exploring LangChain: some use cases how to connect external data to LLMs
 
