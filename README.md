@@ -1,4 +1,4 @@
-# working-with-LLMs
+# Working with LLMs
 
 Notebooks research on LLM capacities, including running autonomous LLMs locally *(Vicuna, GPT4all)* or using OpenAI ChatGPT API.
 
