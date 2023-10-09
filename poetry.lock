@@ -1065,14 +1065,14 @@ tqdm = ["tqdm"]
 
 [[package]]
 name = "gpt4all"
-version = "1.0.3"
+version = "1.0.12"
 description = "Python bindings for GPT4All"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gpt4all-1.0.3-py3-none-macosx_10_9_universal2.whl", hash = "sha256:11bbc8bdb183b100b57e3e8e0c67650cd84e49d9b875dd15c8bb26cfcf72988d"},
-    {file = "gpt4all-1.0.3-py3-none-manylinux1_x86_64.whl", hash = "sha256:75248b2f160bd7834b807196395d51792cd3e41969c870a418566d1007ec5c83"},
-    {file = "gpt4all-1.0.3-py3-none-win_amd64.whl", hash = "sha256:dcb4901f6320d938bc267ee0b28eaee8676221d22ecbf31b00246d0b4973a31a"},
+    {file = "gpt4all-1.0.12-py3-none-macosx_10_9_universal2.whl", hash = "sha256:935a6d16f582e91821ee80ce8e39644f9d41f3467c341ea44bda6b346f0bdb2c"},
+    {file = "gpt4all-1.0.12-py3-none-manylinux1_x86_64.whl", hash = "sha256:7eb9855054fca82671860d07e23d62db348078ff7f8743148fb3d8067b82deb4"},
+    {file = "gpt4all-1.0.12-py3-none-win_amd64.whl", hash = "sha256:c65113f11d9f4106c9af5cd2716f0819df683991925a3e3e883d3a33d937434e"},
 ]
 
 [package.dependencies]
